@@ -54,7 +54,7 @@ int main()
 	double temp;
 	temp = 5.0 * (f - 32.0) / 9.0;
 	cout << f << " stopni Fahrenheita to " << temp << " stopni Celsjusza";
-	//spodziewany wynik dla f = 20 to c okolo -6.66667
+	//spodziewany wynik dla f = 20 to c okolo -6.66667 
 		return 0;
 }
 
