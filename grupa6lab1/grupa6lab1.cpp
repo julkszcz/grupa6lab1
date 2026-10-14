@@ -6,8 +6,56 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-    cout << "Hello World!\n";
+	cout << "XXXXXXXX       XXXXX" << endl;    // zad 1
+	cout << "       X      X" << endl;
+	cout << "       X      X" << endl;
+	cout << "       X       X" << endl;
+	cout << "       X        XX" << endl;
+	cout << "       X           X" << endl;
+	cout << "X     X             X" << endl;
+	cout << "  X  X              X " << endl;
+	cout << "   X           XXXX" << endl;
+
+
+
+
+	cout << "          **      " << endl;    // zad 2
+	cout << "         ****     " << endl;
+	cout << "        ******    " << endl;
+	cout << " ********************  " << endl;
+	cout << "  *****************  " << endl;
+	cout << "   ***************  " << endl;
+	cout << "   *************  " << endl;
+	cout << "  ******   ******" << endl;
+	cout << "  *****     *****" << endl;
+	cout << "  ****       ****" << endl;
+
+	cout << " LISTA OBECNOŒCI" << endl;    // zad 3
+	cout << "NR    IMIE           NAZWISKO" << endl;
+	cout << "1     Jan            Kowalski" << endl;
+	cout << "2     Anna           Lisiewicz" << endl;
+	cout << "3     Piotr          Krysiak" << endl;
+
+
+	int a, b, c;    // zad 4.1
+	cin >> a >> b;
+	c = a * b;
+	cout << c << endl;
+
+
+	float x, y, z;    // zad 4.2
+	cin >> x >> y;
+	z = x * y;
+	cout << z << endl;
+	
+
+	float temp;    // zad 5
+	double f = 20.0;
+	double temp;
+	temp = 5.0 * (f - 32.0) / 9.0;
+	cout << f << " stopni Fahrenheita to " << temp << " stopni Celsjusza";
+	//spodziewany wynik dla f = 20 to c okolo -6.66667
+		return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
